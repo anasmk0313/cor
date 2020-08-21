@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+span{
+    color: rgb(96, 99, 97);
+}
+i{
+    color: rgb(172, 175, 173);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif, Helvetica, Arial;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 54px;
+}
+h2, h3{
+    font-weight: 300;
+    color: rgb(6, 151, 196);
+}
+h3{
+    border-bottom: 1px solid rgb(6, 151, 196);
+}
+hr{
+    margin: 40px 0;
+    border-color: rgb(189, 202, 206);
+    opacity: 0.2;
+}
+.nav-background{
+    background: rgb(6, 151, 196);
+}
+.jumbotron{
+    margin-bottom: 0 !important;
+}
+.background-blue{
+    background: rgb(209, 235, 243);
+}
+#guppy{
+    padding-top: 80px;
+}
+#guppy h2{
+    padding-bottom: 40px;
+}
+#guppy .row > div { margin-bottom: 30px; }
+#guppy figure { position: relative; overflow: hidden; }
+#guppy figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
+#guppy figure p > strong { width: 60px; display: inline-block; margin: 0px; }
+#guppy figure img { width: 110%; }
+#guppy figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#guppy figure{
+    position: relative;
+    overflow: hidden;
+}
+figure.effect {
+	background: rgb(6, 151, 196);
+	color: #FFF;
+}
+
+figure.effect img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+	opacity: 0.2;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect figcaption {
+	text-align: left;
+}
+
+figure.effect h3 {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+	opacity: 1;
+}
+
+figure.effect h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+	padding-top: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect a {
+	padding-top: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+    color: white;
+}
+
+figure.effect:hover a {
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+#fighter{
+    padding-top: 80px;
+}
+#fighter h2{
+    padding-bottom: 40px;
+}
+#fighter .row > div { margin-bottom: 30px; }
+#fighter figure { position: relative; overflow: hidden; }
+#fighter figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
+#fighter figure p > strong { width: 60px; display: inline-block; margin: 0px; }
+#fighter figure img { width: 110%; }
+#fighter figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#fighter figure{
+    position: relative;
+    overflow: hidden;
+}
+#gallery{
+    padding-top: 80px;
+}
+#gallery h2{
+    padding-bottom: 40px;
+}
+.gallery a:hover{
+    text-decoration: none;
+}
+#contact{
+    padding-top: 80px;
+}
+#contact h2{
+    padding-bottom: 40px;
+}
+.background-black{
+    background: gray;
+    color: white !important;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+.background-black h2{
+    color: white;
+}
+#contact ul{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact ul li{
+    font-size: 30px;
+    padding: 5px 5px;
+}
+#contact ul li a, #contact ul li a i{
+    color: rgb(123, 190, 211);
+}
+#contact ul li a:hover{
+    color: rgb(147, 201, 226);
+    text-decoration: none;
+}
+#contact div{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.background-black hr{
+    margin: 40px 0;
+    border-color: rgb(206, 213, 214);
+    opacity:1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.background-black .footer a{
+    color: rgb(123, 190, 211);
+}
+.background-black .footer a:hover{
+    color: rgb(147, 201, 226);
+    text-decoration: none;
+}
